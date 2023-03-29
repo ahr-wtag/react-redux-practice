@@ -1,0 +1,14 @@
+@import '../../../utils/constants/colors.scss';
+
+.navbar{
+    background-color: $ACCENRT;
+    color: $PRIMARY;
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    p{ 
+        font-size: 5rem;
+    }
+}

@@ -1,0 +1,22 @@
+@import '../../../utils/constants/colors.scss';
+.container{
+    margin-top: 5vh;
+    height: 100%;
+    min-height: 60vh;
+    padding: 2rem;
+    display: grid;
+    padding: 50px;
+    grid-template-columns: auto auto auto;
+    grid-auto-flow: row;
+    grid-gap: 1rem;
+    grid-auto-rows: 100px;
+}
+small{
+    
+    display: block;
+    padding-top: 15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $PRIMARY;
+}
